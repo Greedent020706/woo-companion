@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+.expo/
+.vercel/
+*.log
+.env
+.env.local
+.env.*.local
+!.env.example
+.DS_Store
+apps/mobile/expo-env.d.ts
+apps/mobile/ios/
+apps/mobile/android/
+*.tsbuildinfo

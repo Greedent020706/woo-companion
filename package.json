@@ -1,0 +1,42 @@
+{
+  "name": "woo-companion",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tienda con panel web y app móvil sobre la misma API (WooCommerce o mock).",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": "^22.22.2 || >=24.15.0"
+  },
+  "scripts": {
+    "dev:api": "npm run dev --workspace @woo/api",
+    "dev:web": "npm run dev --workspace @woo/web",
+    "dev:mobile": "npm run start --workspace @woo/mobile --",
+    "build:web": "npm run build --workspace @woo/web",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.19.1",
+    "eslint": "^10.12.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.9",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.71.0",
+    "vitest": "^5.0.3"
+  },
+  "overrides": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}

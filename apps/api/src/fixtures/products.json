@@ -1,0 +1,662 @@
+[
+  {
+    "id": 101,
+    "name": "Etiopía Yirgacheffe 250 g",
+    "slug": "etiopia-yirgacheffe-250-g",
+    "sku": "WC-0101",
+    "status": "publish",
+    "price": 14.5,
+    "regularPrice": 14.5,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 42,
+    "categories": [
+      {
+        "id": 11,
+        "name": "Café en grano"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/etiopia-yirgacheffe-250-g/600/600",
+    "shortDescription": "Notas florales de jazmín y bergamota, acidez brillante.",
+    "description": "Notas florales de jazmín y bergamota, acidez brillante. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-06-07T10:15:00.000Z"
+  },
+  {
+    "id": 102,
+    "name": "Colombia Huila 250 g",
+    "slug": "colombia-huila-250-g",
+    "sku": "WC-0102",
+    "status": "publish",
+    "price": 10.9,
+    "regularPrice": 12.9,
+    "salePrice": 10.9,
+    "stockStatus": "instock",
+    "stockQuantity": 35,
+    "categories": [
+      {
+        "id": 11,
+        "name": "Café en grano"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/colombia-huila-250-g/600/600",
+    "shortDescription": "Dulce, con notas de caramelo y manzana roja.",
+    "description": "Dulce, con notas de caramelo y manzana roja. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-06-10T10:15:00.000Z"
+  },
+  {
+    "id": 103,
+    "name": "Kenia AA Nyeri 250 g",
+    "slug": "kenia-aa-nyeri-250-g",
+    "sku": "WC-0103",
+    "status": "publish",
+    "price": 16,
+    "regularPrice": 16,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 4,
+    "categories": [
+      {
+        "id": 11,
+        "name": "Café en grano"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/kenia-aa-nyeri-250-g/600/600",
+    "shortDescription": "Intenso, con grosella negra y final jugoso.",
+    "description": "Intenso, con grosella negra y final jugoso. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-06-13T10:15:00.000Z"
+  },
+  {
+    "id": 104,
+    "name": "Brasil Cerrado 1 kg",
+    "slug": "brasil-cerrado-1-kg",
+    "sku": "WC-0104",
+    "status": "publish",
+    "price": 28,
+    "regularPrice": 32,
+    "salePrice": 28,
+    "stockStatus": "instock",
+    "stockQuantity": 18,
+    "categories": [
+      {
+        "id": 11,
+        "name": "Café en grano"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/brasil-cerrado-1-kg/600/600",
+    "shortDescription": "Chocolate con leche y avellana, cuerpo redondo.",
+    "description": "Chocolate con leche y avellana, cuerpo redondo. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-06-16T10:15:00.000Z"
+  },
+  {
+    "id": 105,
+    "name": "Guatemala Antigua 250 g",
+    "slug": "guatemala-antigua-250-g",
+    "sku": "WC-0105",
+    "status": "publish",
+    "price": 13.5,
+    "regularPrice": 13.5,
+    "salePrice": null,
+    "stockStatus": "outofstock",
+    "stockQuantity": 0,
+    "categories": [
+      {
+        "id": 11,
+        "name": "Café en grano"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/guatemala-antigua-250-g/600/600",
+    "shortDescription": "Cacao, especias suaves y acidez equilibrada.",
+    "description": "Cacao, especias suaves y acidez equilibrada. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-06-19T10:15:00.000Z"
+  },
+  {
+    "id": 106,
+    "name": "Ruanda Nyamasheke 250 g",
+    "slug": "ruanda-nyamasheke-250-g",
+    "sku": "WC-0106",
+    "status": "publish",
+    "price": 15.2,
+    "regularPrice": 15.2,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 22,
+    "categories": [
+      {
+        "id": 11,
+        "name": "Café en grano"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/ruanda-nyamasheke-250-g/600/600",
+    "shortDescription": "Frutos rojos y té negro, muy limpio.",
+    "description": "Frutos rojos y té negro, muy limpio. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-06-22T10:15:00.000Z"
+  },
+  {
+    "id": 107,
+    "name": "Espresso de la casa molido 250 g",
+    "slug": "espresso-de-la-casa-molido-250-g",
+    "sku": "WC-0107",
+    "status": "publish",
+    "price": 9.9,
+    "regularPrice": 9.9,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 60,
+    "categories": [
+      {
+        "id": 12,
+        "name": "Café molido"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/espresso-de-la-casa-molido-250-g/600/600",
+    "shortDescription": "Mezcla pensada para cafetera italiana y espresso.",
+    "description": "Mezcla pensada para cafetera italiana y espresso. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-06-25T10:15:00.000Z"
+  },
+  {
+    "id": 108,
+    "name": "Descafeinado Swiss Water molido",
+    "slug": "descafeinado-swiss-water-molido",
+    "sku": "WC-0108",
+    "status": "publish",
+    "price": 9.5,
+    "regularPrice": 11.5,
+    "salePrice": 9.5,
+    "stockStatus": "instock",
+    "stockQuantity": 3,
+    "categories": [
+      {
+        "id": 12,
+        "name": "Café molido"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/descafeinado-swiss-water-molido/600/600",
+    "shortDescription": "Descafeinado sin químicos, notas a galleta.",
+    "description": "Descafeinado sin químicos, notas a galleta. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-06-28T10:15:00.000Z"
+  },
+  {
+    "id": 109,
+    "name": "Molido para filtro Perú 250 g",
+    "slug": "molido-para-filtro-peru-250-g",
+    "sku": "WC-0109",
+    "status": "publish",
+    "price": 12,
+    "regularPrice": 12,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 27,
+    "categories": [
+      {
+        "id": 12,
+        "name": "Café molido"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/molido-para-filtro-peru-250-g/600/600",
+    "shortDescription": "Ideal para V60 y Chemex, notas de miel.",
+    "description": "Ideal para V60 y Chemex, notas de miel. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-01T10:15:00.000Z"
+  },
+  {
+    "id": 110,
+    "name": "Molido para prensa francesa 500 g",
+    "slug": "molido-para-prensa-francesa-500-g",
+    "sku": "WC-0110",
+    "status": "publish",
+    "price": 18,
+    "regularPrice": 18,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 14,
+    "categories": [
+      {
+        "id": 12,
+        "name": "Café molido"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/molido-para-prensa-francesa-500-g/600/600",
+    "shortDescription": "Molienda gruesa con cuerpo y dulzor.",
+    "description": "Molienda gruesa con cuerpo y dulzor. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-04T10:15:00.000Z"
+  },
+  {
+    "id": 111,
+    "name": "Té verde sencha 100 g",
+    "slug": "te-verde-sencha-100-g",
+    "sku": "WC-0111",
+    "status": "publish",
+    "price": 8.5,
+    "regularPrice": 8.5,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 40,
+    "categories": [
+      {
+        "id": 13,
+        "name": "Té e infusiones"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/te-verde-sencha-100-g/600/600",
+    "shortDescription": "Hojas japonesas con notas vegetales y umami.",
+    "description": "Hojas japonesas con notas vegetales y umami. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-07T10:15:00.000Z"
+  },
+  {
+    "id": 112,
+    "name": "Rooibos vainilla 100 g",
+    "slug": "rooibos-vainilla-100-g",
+    "sku": "WC-0112",
+    "status": "publish",
+    "price": 5.9,
+    "regularPrice": 7.2,
+    "salePrice": 5.9,
+    "stockStatus": "instock",
+    "stockQuantity": 33,
+    "categories": [
+      {
+        "id": 13,
+        "name": "Té e infusiones"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/rooibos-vainilla-100-g/600/600",
+    "shortDescription": "Infusión sin teína con vainilla natural.",
+    "description": "Infusión sin teína con vainilla natural. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-10T10:15:00.000Z"
+  },
+  {
+    "id": 113,
+    "name": "Earl Grey premium 100 g",
+    "slug": "earl-grey-premium-100-g",
+    "sku": "WC-0113",
+    "status": "publish",
+    "price": 7.9,
+    "regularPrice": 7.9,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 2,
+    "categories": [
+      {
+        "id": 13,
+        "name": "Té e infusiones"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/earl-grey-premium-100-g/600/600",
+    "shortDescription": "Té negro con aceite de bergamota de Calabria.",
+    "description": "Té negro con aceite de bergamota de Calabria. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-13T10:15:00.000Z"
+  },
+  {
+    "id": 114,
+    "name": "Matcha ceremonial 30 g",
+    "slug": "matcha-ceremonial-30-g",
+    "sku": "WC-0114",
+    "status": "publish",
+    "price": 24,
+    "regularPrice": 24,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 9,
+    "categories": [
+      {
+        "id": 13,
+        "name": "Té e infusiones"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/matcha-ceremonial-30-g/600/600",
+    "shortDescription": "Matcha de Uji para preparar con chasen.",
+    "description": "Matcha de Uji para preparar con chasen. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-16T10:15:00.000Z"
+  },
+  {
+    "id": 115,
+    "name": "Chai especiado 100 g",
+    "slug": "chai-especiado-100-g",
+    "sku": "WC-0115",
+    "status": "publish",
+    "price": 8.9,
+    "regularPrice": 8.9,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 25,
+    "categories": [
+      {
+        "id": 13,
+        "name": "Té e infusiones"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/chai-especiado-100-g/600/600",
+    "shortDescription": "Canela, cardamomo, jengibre y clavo.",
+    "description": "Canela, cardamomo, jengibre y clavo. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-19T10:15:00.000Z"
+  },
+  {
+    "id": 116,
+    "name": "Molinillo manual de acero",
+    "slug": "molinillo-manual-de-acero",
+    "sku": "WC-0116",
+    "status": "publish",
+    "price": 49,
+    "regularPrice": 59,
+    "salePrice": 49,
+    "stockStatus": "instock",
+    "stockQuantity": 7,
+    "categories": [
+      {
+        "id": 14,
+        "name": "Accesorios"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/molinillo-manual-de-acero/600/600",
+    "shortDescription": "Muelas cónicas de acero y 40 ajustes de molienda.",
+    "description": "Muelas cónicas de acero y 40 ajustes de molienda. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-22T10:15:00.000Z"
+  },
+  {
+    "id": 117,
+    "name": "Hervidor cuello de cisne",
+    "slug": "hervidor-cuello-de-cisne",
+    "sku": "WC-0117",
+    "status": "publish",
+    "price": 45,
+    "regularPrice": 45,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 11,
+    "categories": [
+      {
+        "id": 14,
+        "name": "Accesorios"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/hervidor-cuello-de-cisne/600/600",
+    "shortDescription": "Control preciso del vertido para métodos de filtro.",
+    "description": "Control preciso del vertido para métodos de filtro. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-25T10:15:00.000Z"
+  },
+  {
+    "id": 118,
+    "name": "Báscula con temporizador",
+    "slug": "bascula-con-temporizador",
+    "sku": "WC-0118",
+    "status": "publish",
+    "price": 29.9,
+    "regularPrice": 29.9,
+    "salePrice": null,
+    "stockStatus": "outofstock",
+    "stockQuantity": 0,
+    "categories": [
+      {
+        "id": 14,
+        "name": "Accesorios"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/bascula-con-temporizador/600/600",
+    "shortDescription": "Precisión de 0,1 g y cronómetro integrado.",
+    "description": "Precisión de 0,1 g y cronómetro integrado. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-28T10:15:00.000Z"
+  },
+  {
+    "id": 119,
+    "name": "Filtros de papel V60 (100 uds.)",
+    "slug": "filtros-de-papel-v60-100-uds",
+    "sku": "WC-0119",
+    "status": "publish",
+    "price": 6.5,
+    "regularPrice": 6.5,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 120,
+    "categories": [
+      {
+        "id": 14,
+        "name": "Accesorios"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/filtros-de-papel-v60-100-uds/600/600",
+    "shortDescription": "Filtros blancos sin sabor a papel.",
+    "description": "Filtros blancos sin sabor a papel. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-07-31T10:15:00.000Z"
+  },
+  {
+    "id": 120,
+    "name": "Prensa francesa 1 L",
+    "slug": "prensa-francesa-1-l",
+    "sku": "WC-0120",
+    "status": "publish",
+    "price": 34,
+    "regularPrice": 34,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 16,
+    "categories": [
+      {
+        "id": 14,
+        "name": "Accesorios"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/prensa-francesa-1-l/600/600",
+    "shortDescription": "Vidrio de borosilicato y filtro de doble malla.",
+    "description": "Vidrio de borosilicato y filtro de doble malla. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-03T10:15:00.000Z"
+  },
+  {
+    "id": 121,
+    "name": "Dripper V60 de cerámica",
+    "slug": "dripper-v60-de-ceramica",
+    "sku": "WC-0121",
+    "status": "publish",
+    "price": 24,
+    "regularPrice": 24,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 13,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Cerámica"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/dripper-v60-de-ceramica/600/600",
+    "shortDescription": "Gotero cónico que retiene bien el calor.",
+    "description": "Gotero cónico que retiene bien el calor. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-06T10:15:00.000Z"
+  },
+  {
+    "id": 122,
+    "name": "Taza artesanal 250 ml",
+    "slug": "taza-artesanal-250-ml",
+    "sku": "WC-0122",
+    "status": "publish",
+    "price": 15,
+    "regularPrice": 18,
+    "salePrice": 15,
+    "stockStatus": "instock",
+    "stockQuantity": 30,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Cerámica"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/taza-artesanal-250-ml/600/600",
+    "shortDescription": "Esmaltada a mano, cada pieza es única.",
+    "description": "Esmaltada a mano, cada pieza es única. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-09T10:15:00.000Z"
+  },
+  {
+    "id": 123,
+    "name": "Juego de 2 tazas de espresso",
+    "slug": "juego-de-2-tazas-de-espresso",
+    "sku": "WC-0123",
+    "status": "publish",
+    "price": 22,
+    "regularPrice": 22,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 1,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Cerámica"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/juego-de-2-tazas-de-espresso/600/600",
+    "shortDescription": "Paredes gruesas para mantener la crema.",
+    "description": "Paredes gruesas para mantener la crema. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-12T10:15:00.000Z"
+  },
+  {
+    "id": 124,
+    "name": "Jarra de servir 600 ml",
+    "slug": "jarra-de-servir-600-ml",
+    "sku": "WC-0124",
+    "status": "publish",
+    "price": 27.5,
+    "regularPrice": 27.5,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 8,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Cerámica"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/jarra-de-servir-600-ml/600/600",
+    "shortDescription": "Pico fino para servir sin goteos.",
+    "description": "Pico fino para servir sin goteos. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-15T10:15:00.000Z"
+  },
+  {
+    "id": 125,
+    "name": "Tetera de gres 800 ml",
+    "slug": "tetera-de-gres-800-ml",
+    "sku": "WC-0125",
+    "status": "publish",
+    "price": 39,
+    "regularPrice": 39,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 5,
+    "categories": [
+      {
+        "id": 15,
+        "name": "Cerámica"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/tetera-de-gres-800-ml/600/600",
+    "shortDescription": "Con infusor de acero extraíble.",
+    "description": "Con infusor de acero extraíble. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-18T10:15:00.000Z"
+  },
+  {
+    "id": 126,
+    "name": "Pack degustación orígenes",
+    "slug": "pack-degustacion-origenes",
+    "sku": "WC-0126",
+    "status": "publish",
+    "price": 34,
+    "regularPrice": 39,
+    "salePrice": 34,
+    "stockStatus": "instock",
+    "stockQuantity": 12,
+    "categories": [
+      {
+        "id": 16,
+        "name": "Packs regalo"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/pack-degustacion-origenes/600/600",
+    "shortDescription": "Tres cafés de origen de 250 g para comparar.",
+    "description": "Tres cafés de origen de 250 g para comparar. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-21T10:15:00.000Z"
+  },
+  {
+    "id": 127,
+    "name": "Pack iniciación filtro",
+    "slug": "pack-iniciacion-filtro",
+    "sku": "WC-0127",
+    "status": "publish",
+    "price": 69,
+    "regularPrice": 69,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 6,
+    "categories": [
+      {
+        "id": 16,
+        "name": "Packs regalo"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/pack-iniciacion-filtro/600/600",
+    "shortDescription": "V60, filtros y un café de origen para empezar.",
+    "description": "V60, filtros y un café de origen para empezar. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-24T10:15:00.000Z"
+  },
+  {
+    "id": 128,
+    "name": "Pack amantes del té",
+    "slug": "pack-amantes-del-te",
+    "sku": "WC-0128",
+    "status": "publish",
+    "price": 29,
+    "regularPrice": 29,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": 10,
+    "categories": [
+      {
+        "id": 16,
+        "name": "Packs regalo"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/pack-amantes-del-te/600/600",
+    "shortDescription": "Sencha, rooibos y earl grey en caja regalo.",
+    "description": "Sencha, rooibos y earl grey en caja regalo. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-27T10:15:00.000Z"
+  },
+  {
+    "id": 129,
+    "name": "Galletas de cacao y café",
+    "slug": "galletas-de-cacao-y-cafe",
+    "sku": "WC-0129",
+    "status": "draft",
+    "price": 5.5,
+    "regularPrice": 5.5,
+    "salePrice": null,
+    "stockStatus": "outofstock",
+    "stockQuantity": 0,
+    "categories": [
+      {
+        "id": 16,
+        "name": "Packs regalo"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/galletas-de-cacao-y-cafe/600/600",
+    "shortDescription": "Galletas artesanas para acompañar el café.",
+    "description": "Galletas artesanas para acompañar el café. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-08-30T10:15:00.000Z"
+  },
+  {
+    "id": 130,
+    "name": "Tarjeta regalo 50 €",
+    "slug": "tarjeta-regalo-50",
+    "sku": "WC-0130",
+    "status": "publish",
+    "price": 50,
+    "regularPrice": 50,
+    "salePrice": null,
+    "stockStatus": "instock",
+    "stockQuantity": null,
+    "categories": [
+      {
+        "id": 16,
+        "name": "Packs regalo"
+      }
+    ],
+    "imageUrl": "https://picsum.photos/seed/tarjeta-regalo-50/600/600",
+    "shortDescription": "Para canjear en cualquier producto de la tienda.",
+    "description": "Para canjear en cualquier producto de la tienda. Producto seleccionado y preparado en nuestro obrador. Envío en 24/48 h.",
+    "createdAt": "2026-09-02T10:15:00.000Z"
+  }
+]

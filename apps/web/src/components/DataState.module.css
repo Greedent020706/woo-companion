@@ -1,0 +1,30 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--wc-space-2);
+  padding: var(--wc-space-6) var(--wc-space-4);
+  text-align: center;
+  color: var(--wc-text-muted);
+}
+
+.fullPage {
+  composes: box;
+  min-height: 100vh;
+}
+
+.error {
+  color: var(--wc-danger-fg);
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  color: var(--wc-text);
+}
+
+.description {
+  margin: 0;
+  max-width: 40ch;
+}

@@ -1,0 +1,149 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--wc-space-4);
+}
+
+.metrics {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: var(--wc-space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.metric {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    'icon label'
+    'icon value';
+  column-gap: var(--wc-space-3);
+  align-items: center;
+  padding: var(--wc-space-4) var(--wc-space-5);
+  border: 1px solid var(--wc-border);
+  border-radius: var(--wc-radius-lg);
+  background: var(--wc-surface);
+  box-shadow: var(--wc-shadow);
+}
+
+.metricIcon {
+  grid-area: icon;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: var(--wc-radius);
+  background: var(--wc-primary-soft);
+  color: var(--wc-primary);
+}
+
+.metricLabel {
+  grid-area: label;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--wc-text-muted);
+}
+
+.metricValue {
+  grid-area: value;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.statusCard {
+  grid-column: span 7;
+}
+
+.stockCard {
+  grid-column: span 5;
+}
+
+.statusList,
+.stockList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wc-space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.statusRow {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr) 2.5rem;
+  align-items: center;
+  gap: var(--wc-space-3);
+}
+
+.statusTrack {
+  height: 0.6rem;
+  border-radius: 999px;
+  background: var(--wc-surface-muted);
+  overflow: hidden;
+}
+
+.statusBar {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--wc-primary);
+}
+
+.statusCount {
+  font-weight: 800;
+  text-align: right;
+}
+
+.stockLink {
+  display: flex;
+  align-items: center;
+  gap: var(--wc-space-2);
+  padding: var(--wc-space-2) var(--wc-space-3);
+  border-radius: var(--wc-radius-sm);
+  color: inherit;
+  text-decoration: none;
+}
+
+.stockLink:hover {
+  background: var(--wc-surface-muted);
+}
+
+.stockIcon {
+  flex-shrink: 0;
+  color: var(--wc-warning-fg);
+}
+
+.stockName {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.stockQuantity {
+  font-weight: 700;
+  color: var(--wc-warning-fg);
+}
+
+@media (max-width: 1199.98px) {
+  .statusCard,
+  .stockCard {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .statusRow {
+    grid-template-columns: 1fr 2.5rem;
+  }
+
+  .statusTrack {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}

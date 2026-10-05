@@ -1,0 +1,38 @@
+[
+  {
+    "id": 11,
+    "name": "Café en grano",
+    "slug": "cafe-en-grano",
+    "count": 6
+  },
+  {
+    "id": 12,
+    "name": "Café molido",
+    "slug": "cafe-molido",
+    "count": 4
+  },
+  {
+    "id": 13,
+    "name": "Té e infusiones",
+    "slug": "te-e-infusiones",
+    "count": 5
+  },
+  {
+    "id": 14,
+    "name": "Accesorios",
+    "slug": "accesorios",
+    "count": 5
+  },
+  {
+    "id": 15,
+    "name": "Cerámica",
+    "slug": "ceramica",
+    "count": 5
+  },
+  {
+    "id": 16,
+    "name": "Packs regalo",
+    "slug": "packs-regalo",
+    "count": 5
+  }
+]

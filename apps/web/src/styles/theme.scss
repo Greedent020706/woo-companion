@@ -1,0 +1,81 @@
+$primary: #2f5d50;
+$secondary: #6b625a;
+$success: #2e7d4f;
+$info: #2b6cb0;
+$warning: #b7791f;
+$danger: #c0392b;
+$light: #f3efe9;
+$dark: #1d2421;
+
+$body-bg: #f6f3ef;
+$body-color: #1f2523;
+$body-bg-dark: #121614;
+$body-color-dark: #e4e9e6;
+$body-secondary-color: #5d6661;
+
+$font-family-sans-serif:
+  'Manrope',
+  system-ui,
+  -apple-system,
+  'Segoe UI',
+  Roboto,
+  sans-serif;
+$font-size-base: 0.95rem;
+$headings-font-weight: 800;
+$headings-letter-spacing: -0.02em;
+
+$border-radius: 0.625rem;
+$border-radius-sm: 0.45rem;
+$border-radius-lg: 0.9rem;
+$border-color: #e3ddd5;
+
+$btn-font-weight: 600;
+$btn-padding-x: 1.1rem;
+$btn-focus-width: 0.2rem;
+$input-btn-focus-color-opacity: 0.35;
+$input-bg: #fffdfb;
+$input-border-color: #d9d2c9;
+$form-label-font-weight: 600;
+
+$card-border-width: 1px;
+$card-cap-bg: transparent;
+$table-cell-padding-y: 0.8rem;
+$table-th-font-weight: 700;
+$table-hover-bg-factor: 0.04;
+$pagination-border-radius: $border-radius;
+
+$enable-shadows: false;
+$enable-negative-margins: true;
+
+@import 'bootstrap/scss/bootstrap';
+
+[data-bs-theme='dark'] {
+  --bs-border-color: #2c3531;
+  --bs-tertiary-bg: #1a201d;
+  --bs-secondary-bg: #1f2622;
+
+  .form-control,
+  .form-select {
+    background-color: #171c1a;
+  }
+}
+
+.table {
+  --bs-table-bg: transparent;
+  vertical-align: middle;
+
+  thead th {
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--bs-secondary-color);
+  }
+}
+
+.btn-primary {
+  --bs-btn-hover-bg: #{shade-color($primary, 15%)};
+}
+
+.form-text {
+  font-size: 0.8rem;
+}

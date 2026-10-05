@@ -1,0 +1,16 @@
+.toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--wc-border);
+  border-radius: var(--wc-radius);
+  background: var(--wc-surface);
+  color: var(--wc-text);
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+
+.toggle:hover {
+  background: var(--wc-surface-muted);
+}

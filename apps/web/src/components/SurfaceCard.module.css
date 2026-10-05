@@ -1,0 +1,14 @@
+.card {
+  padding: var(--wc-space-5);
+  border: 1px solid var(--wc-border);
+  border-radius: var(--wc-radius-lg);
+  background: var(--wc-surface);
+  box-shadow: var(--wc-shadow);
+  min-width: 0;
+}
+
+.title {
+  margin: 0 0 var(--wc-space-4);
+  font-size: 1rem;
+  font-weight: 800;
+}

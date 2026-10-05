@@ -1,0 +1,48 @@
+.filters {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--wc-space-3);
+  margin-bottom: var(--wc-space-4);
+}
+
+.searchField {
+  min-width: 0;
+}
+
+.resultCount {
+  display: flex;
+  align-items: center;
+  gap: var(--wc-space-2);
+  justify-self: end;
+  font-size: 0.85rem;
+  color: var(--wc-text-muted);
+  white-space: nowrap;
+}
+
+.productCell {
+  display: flex;
+  align-items: center;
+  gap: var(--wc-space-3);
+  min-width: 14rem;
+}
+
+.thumbnail {
+  flex-shrink: 0;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: var(--wc-radius-sm);
+  background: var(--wc-surface-muted);
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .filters {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .resultCount {
+    justify-self: start;
+  }
+}

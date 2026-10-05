@@ -1,0 +1,240 @@
+.shell {
+  --sidebar-width: 15.5rem;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  grid-template-areas: 'sidebar content';
+}
+
+.skipLink {
+  position: absolute;
+  top: var(--wc-space-2);
+  left: var(--wc-space-2);
+  z-index: 100;
+  padding: var(--wc-space-2) var(--wc-space-4);
+  border-radius: var(--wc-radius-sm);
+  background: var(--wc-primary);
+  color: var(--wc-on-primary);
+  transform: translateY(-200%);
+}
+
+.skipLink:focus {
+  transform: none;
+}
+
+.topbar {
+  display: none;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: var(--wc-space-5);
+  padding: var(--wc-space-5) var(--wc-space-4);
+  background: var(--wc-sidebar-bg);
+  color: var(--wc-sidebar-text);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--wc-space-3);
+  padding: 0 var(--wc-space-2);
+  color: var(--wc-sidebar-text-strong);
+  font-weight: 800;
+}
+
+.brandMark {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--wc-radius);
+  background: var(--wc-accent);
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.brandCaption {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--wc-sidebar-text);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wc-space-1);
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: var(--wc-space-3);
+  padding: var(--wc-space-3) var(--wc-space-3);
+  border-radius: var(--wc-radius);
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition:
+    background-color 150ms ease,
+    color 150ms ease;
+}
+
+.navLink:hover {
+  background: var(--wc-sidebar-active-bg);
+  color: var(--wc-sidebar-text-strong);
+}
+
+.navLinkActive {
+  background: var(--wc-sidebar-active-bg);
+  color: var(--wc-sidebar-text-strong);
+  border-left-color: var(--wc-accent);
+}
+
+.account {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--wc-space-3);
+  padding: var(--wc-space-3);
+  border-radius: var(--wc-radius);
+  background: var(--wc-sidebar-active-bg);
+}
+
+.accountInfo {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.accountName {
+  color: var(--wc-sidebar-text-strong);
+  font-weight: 700;
+}
+
+.accountEmail {
+  font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logoutButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--wc-space-2);
+  padding: var(--wc-space-2);
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: var(--wc-radius-sm);
+  background: transparent;
+  color: var(--wc-sidebar-text-strong);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background: rgb(255 255 255 / 8%);
+}
+
+.contentColumn {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.desktopToolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--wc-space-4) var(--wc-space-6) 0;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  max-width: 80rem;
+  padding: var(--wc-space-4) var(--wc-space-6) var(--wc-space-6);
+}
+
+.main:focus {
+  outline: none;
+}
+
+.backdrop {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  .shell {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'topbar'
+      'content';
+  }
+
+  .topbar {
+    grid-area: topbar;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    gap: var(--wc-space-3);
+    padding: var(--wc-space-3) var(--wc-space-4);
+    border-bottom: 1px solid var(--wc-border);
+    background: var(--wc-surface);
+  }
+
+  .topbarBrand {
+    flex: 1;
+    font-weight: 800;
+  }
+
+  .menuButton {
+    display: inline-grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid var(--wc-border);
+    border-radius: var(--wc-radius);
+    background: transparent;
+    color: var(--wc-text);
+  }
+
+  .sidebar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    z-index: 50;
+    width: min(var(--sidebar-width), 85vw);
+    transform: translateX(-100%);
+    transition: transform 200ms ease;
+  }
+
+  .sidebarOpen {
+    transform: none;
+  }
+
+  .backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    background: rgb(0 0 0 / 45%);
+  }
+
+  .desktopToolbar {
+    display: none;
+  }
+
+  .main {
+    padding: var(--wc-space-4);
+  }
+}

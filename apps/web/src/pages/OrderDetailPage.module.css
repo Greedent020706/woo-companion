@@ -1,0 +1,26 @@
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(16rem, 1fr);
+  align-items: start;
+  gap: var(--wc-space-4);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wc-space-4);
+}
+
+.customerLine {
+  display: flex;
+  align-items: center;
+  gap: var(--wc-space-2);
+  margin: 0 0 var(--wc-space-2);
+  word-break: break-word;
+}
+
+@media (max-width: 991.98px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
